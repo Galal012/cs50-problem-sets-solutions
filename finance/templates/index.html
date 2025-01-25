@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock
+{% endblock %}
+
+{% block main %}
+    <div class="mb-3">
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in stock %}
+                    <tr>
+                        <td>{{item["symbol"]}}</td>
+                        <td>{{item["shares"]}}</td>
+                        <td>{{item["price"] | usd}}</td>
+                        <td>{{item["total"] | usd}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="mb-3">
+        <table>
+            <thead>
+                <tr>
+                    <th>Cash</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{cash | usd}}</td>
+                    <td>{{total | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

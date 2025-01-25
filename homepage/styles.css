@@ -1,0 +1,41 @@
+.header-container
+{
+    text-align: center;
+    background-color: #12A5FF;
+    padding: 20px 20px 20px 20px;
+}
+
+.large
+{
+    font-size: 26pt;
+}
+
+.circular-image
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.name
+{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.margen-left
+{
+    margin-left: 35px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

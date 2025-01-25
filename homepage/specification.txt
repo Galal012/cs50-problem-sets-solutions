@@ -1,0 +1,31 @@
+HTML tags used:
+    1. <div>
+    2. <header>
+    3. <img>
+    4. <h3>
+    5. <h4>
+    6. <h5>
+    7. <h6>
+    8. <hr>
+    9. <br>
+    10. <p>
+    11. <ol>
+    12. <ul>
+    13. <li>
+    14. <a>
+
+CSS properties used:
+    1. text-align: center;
+    2. background-color: #12A5FF;
+    3. padding: 20px 20px 20px 20px;
+    4. font-size: 26pt;
+    5. width: 200px;
+    6. height: 200px;
+    7. border-radius: 50%;
+    8. object-fit: cover;
+    9. border: 2px solid black;
+    10. position: relative;
+    11. top: 30px;
+    12. left: 50px;
+
+I used JavaScript in my homepage to alert the user with a pop saying "Welcome to my homepage!" when visiting the site.
