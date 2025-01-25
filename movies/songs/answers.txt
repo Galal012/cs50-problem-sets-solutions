@@ -1,0 +1,3 @@
+To characterize the audio aura of the listener based on the top 100 songs from 2018, you might look at various attributes of the songs such as average energy, valence, and danceability.
+However, this method might not be very representative because it only considers a small subset of the listener's music preferences from one year.
+A better way to calculate the audio aura might be to analyze a larger and more diverse dataset, including songs from multiple years and different contexts.

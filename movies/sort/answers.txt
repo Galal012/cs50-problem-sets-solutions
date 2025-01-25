@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: After testing the three algorithms using sorted50000.txt, sort1 algorithm was the fastest one. This provides that sort1 is using bubble sort because it has Ω(n) in the best case (sorted one), while selection sort has Ω(n^2) and merge sort has Ω(n*log(n)).
+
+sort2 uses: Merge sort
+
+How do you know?: After testing the three algorithms using reversed50000.txt, sort2 algorithm was the fastest one. This provides that sort2 is using merge sort because it has O(n*log(n)) in the worst case (reversed one), while selection sort has O(n^2) and bubble sort has O(n^2).
+
+sort3 uses: Selection sort
+
+How do you know?: After testing the three algorithms using sorted50000.txt, sort3 algorithm was the slowest one. This provides that sort3 is using selection sort because it has Ω(n^2) in the best case (sorted one), while bubble sort has Ω(n) and merge sort has Ω(n*log(n)).
